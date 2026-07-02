@@ -1,0 +1,8 @@
+body{margin:0;background:#02060c;color:#00ff88;font-family:Consolas,monospace;display:flex}
+#matrix{position:fixed;inset:0;z-index:-1}
+.sidebar{width:240px;background:#07111d;height:100vh;padding:20px}
+.sidebar li{list-style:none;padding:12px}
+.main{flex:1;padding:25px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px}
+.card,.panel{padding:20px;background:rgba(8,18,29,.9);border:1px solid #00ff88;border-radius:16px;box-shadow:0 0 15px #00ff88}
+.panel{margin-top:20px}
